@@ -26,8 +26,6 @@ function App() {
       <main>
         <div>
           <Gallery
-                   categories={categories}
-                   setCurrentCategory={setCurrentCategory}
                    currentCategory={currentCategory}
            ></Gallery>
           <About></About>
